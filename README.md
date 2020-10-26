@@ -20,6 +20,16 @@ Group members:
 
 ## 3. Versions
 
+2020/10/21
+
+- Ground & Wall & Furniture & Decoration
+
+2020/10/26
+
+- Player Movement (Animation) Up-Down-Left-Right
+- Camera Follow(smooth move)
+- Camera limit (max-min) range
+
 ## 4. References
 
 Assets:
