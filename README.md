@@ -30,6 +30,11 @@ Group members:
 - Camera Follow(smooth move)
 - Camera limit (max-min) range
 
+2020/10/30
+
+- Add idle Animation (Rewrite the Player Movement)
+- Dialogue System (Only one-to-one dialogue with one text line)
+
 ## 4. References
 
 Assets:
