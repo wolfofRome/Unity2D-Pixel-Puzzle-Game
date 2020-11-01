@@ -40,6 +40,8 @@ public class PhotoGameControl : MonoBehaviour
     {
         if (isEntered && Input.GetKeyDown(KeyCode.Space))
         {
+            photoPanel.SetActive(true);
+
             if (pictures[0].rotation.z == 0 &&
             pictures[1].rotation.z == 0 &&
             pictures[2].rotation.z == 0 &&

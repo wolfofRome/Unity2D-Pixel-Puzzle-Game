@@ -35,6 +35,10 @@ Group members:
 - Add idle Animation (Rewrite the Player Movement)
 - Dialogue System (Only one-to-one dialogue with one text line)
 
+2020/11/01
+
+- Add Audio (bgm with nocopyright)
+
 ## 4. References
 
 Assets:
@@ -42,3 +46,9 @@ Assets:
 - http://www.sucaixiang.com/material-234.html
 - https://pixel-poem.itch.io/dungeon-assetpuck
 - https://assetstore.unity.com/packages/2d/environments/rogue-fantasy-castle-164725
+
+Audio:
+
+- "Uniq - Art Of Silence" is under a Creative Commons license (CC BY-NC-SA 3.0) 
+
+  Music promoted by BreakingCopyright: https://bit.ly/uniq-art-of-silence
