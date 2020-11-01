@@ -10,6 +10,9 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
 
+    public GameObject Bag;
+    bool isOpen;
+    
     Vector2 movement;
 
     void Start()
@@ -35,10 +38,22 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("moving", false);
         }
+        
+        OpenBag();
     }
 
     void MoveCharacter()
     {
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+    }
+    
+        //Open/close bag by tap "B"
+    void OpenBag()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            isOpen = !isOpen;
+            Bag.SetActive(isOpen);
+        }
     }
 }
