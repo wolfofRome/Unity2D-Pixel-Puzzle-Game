@@ -34,10 +34,14 @@ Group members:
 
 - Add idle Animation (Rewrite the Player Movement)
 - Dialogue System (Only one-to-one dialogue with one text line)
+- AI enemy (A* algorithm)
+- Bag System
 
 2020/11/01
 
-- Add Audio (bgm with nocopyright)
+- Add Audio (bgm with nocopyright) & Part of the game sounds
+- Lighting effect
+- Door control
 
 ## 4. References
 
