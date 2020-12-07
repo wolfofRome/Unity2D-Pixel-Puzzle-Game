@@ -1,24 +1,6 @@
 # GroupAA-Unity2D-Pixel-Puzzle-Game
 
-## 1. Project description
-
-**Game name:** "Lost Castle"
-
-![](https://github.com/JianxiangGao/GroupAA-Unity2D-Pixel-Puzzle-Game/blob/main/cover.png)
-
-**Description:** 
-
-- This is a pixel style 2D game based on Unity3D.
-- The player can use the keyboard and mouse to control the movement of the characters and the funtion keys. The game perspective adopts the form of Top-Down. The player needs to constantly interact with the surrounding things to obtain "clues" or keys to solve various puzzles and mechanisms. Connect all "clues" together to get a complete story line.
-- The game method of solving puzzles and fragmented "clues" will provide players with an immersive gaming experience, and the player will also get a great sense of accomplishment when the truth is finally obtained.
-
-**Demo of prototype URL:**
-
-https://youtu.be/hU_ybcyfEiU
-
-## 2. Group Information
-
-**Course name:** MSc Multi-Platform Game Development (Queen Mary University of London)
+## 1. Group Information
 
 **Group ID:** Group AA
 
@@ -28,45 +10,42 @@ https://youtu.be/hU_ybcyfEiU
 - Ruyun Zhang
 - Ziheng Gong
 
-## 3. Versions
+## 2. Project description
 
-2020/10/21
+**Game name:** **"Lost Castle"**
 
-- Ground & Wall & Furniture & Decoration
+![](https://github.com/JianxiangGao/GroupAA-Unity2D-Pixel-Puzzle-Game/blob/main/cover.png)
 
-2020/10/26
+**Git repository URL:** https://github.com/JianxiangGao/GroupAA-Unity2D-Pixel-Puzzle-Game
 
-- Player Movement (Animation) Up-Down-Left-Right
-- Camera Follow(smooth move)
-- Camera limit (max-min) range
+**Gameplay video URL:** 
 
-2020/10/30
+**Concept Statement:** 
 
-- Add idle Animation (Rewrite the Player Movement)
-- Dialogue System (Only one-to-one dialogue with one text line)
-- AI enemy (A* algorithm)
-- Bag System
+- Game type: This is a pixel game. The pixel style gets rid of people's social aesthetic fatigue. Compared with the reality that a large number of games are constantly pursuing, the simple and casual style will attract the needs of players more.
 
-2020/11/01
+- It is also a puzzle-solving adventure game, which requires players to analyze and process the information and plots that appear in the game, and then find clues to solve various puzzles. Therefore, Players can look for the "truth behind" step by step during the game and get an immersive gaming experience.
 
-- Add Audio (bgm with nocopyright) & Part of the game sounds
-- Lighting effect
-- Door control
+- Game background: The background story of the game will not be displayed in text form at the beginning of the game, but will be interspersed in the whole game in clues combined with puzzles, which can better improve the player's gaming experience.
 
-2020/11/02
+## 3. How to Play
 
-- Combine multi-person work and resolve errors.
+(Unity version: 2020.1.6f1)
 
-## 4. References
+- File -> Build Settings (in order): Menu -> Opening Scene -> Floor00 -> Floor01 -> Floor02 -> End
 
-**Assets:**
+- The window ***Game*** -> Display -> Standalone(1920*1080)
 
-- http://www.sucaixiang.com/material-234.html
-- https://pixel-poem.itch.io/dungeon-assetpuck
-- https://assetstore.unity.com/packages/2d/environments/rogue-fantasy-castle-164725
+- Assets -> Scenes -> ***Menu***, Run the ***Menu*** firstly
 
-**Audio:**
+- The menu in the game provides basic operation buttons:
 
-- "Uniq - Art Of Silence" is under a Creative Commons license (CC BY-NC-SA 3.0) 
+  WASD (walking)
 
-  Music promoted by BreakingCopyright: https://bit.ly/uniq-art-of-silence
+  Space (interact)
+
+  B (backpack)
+
+  other buttons will be prompted in the game dialogue
+
+## 4.  Feature List
