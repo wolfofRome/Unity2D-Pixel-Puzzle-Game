@@ -4,6 +4,8 @@
 
 **Game name:** "Lost Castle"
 
+![](https://github.com/JianxiangGao/GroupAA-Unity2D-Pixel-Puzzle-Game/blob/main/cover.png)
+
 **Description:** 
 
 - This is a pixel style 2D game based on Unity3D.
