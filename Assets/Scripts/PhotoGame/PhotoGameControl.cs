@@ -9,6 +9,10 @@ public class PhotoGameControl : MonoBehaviour
     [SerializeField] private Transform[] pictures;
 
     public GameObject photoPanel;
+<<<<<<< HEAD
+    public GameObject keyPanel;
+=======
+>>>>>>> 3f3a041b3d2598dca96c62102c8741e440599627
 
     public static bool youWin;
 
@@ -32,6 +36,10 @@ public class PhotoGameControl : MonoBehaviour
         {
             isEntered = false;
             photoPanel.SetActive(false);
+<<<<<<< HEAD
+            keyPanel.SetActive(false);
+=======
+>>>>>>> 3f3a041b3d2598dca96c62102c8741e440599627
         }
     }
 
@@ -57,6 +65,10 @@ public class PhotoGameControl : MonoBehaviour
             {
                 youWin = true;
                 photoPanel.SetActive(false);
+<<<<<<< HEAD
+                keyPanel.SetActive(true);
+=======
+>>>>>>> 3f3a041b3d2598dca96c62102c8741e440599627
             }
         }
     }

@@ -10,7 +10,7 @@ public class DialogueManager : MonoBehaviour
     public GameObject dialogueBox; //显示or隐藏整个对话窗口
     public Text dialogueText; //输出文字
 
-    [TextArea(1, 3)] //使用特性TextArea，保证输入文本框不会显示默认的一行，因为一行可能文字太多 难以阅读
+    [TextArea(1, 4)] //使用特性TextArea，保证输入文本框不会显示默认的一行，因为一行可能文字太多 难以阅读
     public string dialogue;
     //public string[] dialogueLines; //用数组表示对话内容（多句话）
     //[SerializeField] private int currentLine; //实时追踪当前对话窗口正在进行数组中哪一行、哪一个元素的文字内容输出
