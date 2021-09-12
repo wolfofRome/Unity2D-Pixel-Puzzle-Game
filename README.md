@@ -18,8 +18,6 @@
 
 **Git repository URL:** https://github.com/JianxiangGao/GroupAA-Unity2D-Pixel-Puzzle-Game
 
-**Gameplay video URL:** https://youtu.be/jiedOCpmcpo
-
 **Concept Statement:** 
 
 - Game type: This is a pixel game. The pixel style gets rid of people's social aesthetic fatigue. Compared with the reality that a large number of games are constantly pursuing, the simple and casual style will attract the needs of players more.
